@@ -1,0 +1,206 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root{
+    --Nutmeg: hsl(14, 45%, 36%);
+    --Dark-Raspberry: hsl(332, 51%, 32%);
+    --White: hsl(0, 0%, 100%);
+    --Rose-White: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Light-Grey: hsl(30, 18%, 87%);
+    --Wenge-Brown: hsl(30, 10%, 34%);
+    --Dark-Charcoal: hsl(24, 5%, 18%);
+}
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.outfit{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Young Serif", serif;
+    background-color: var(--White);
+    /*font-family: "Outfit", sans-serif;*/
+
+
+}
+.page-main img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.descriptions-main{
+    width: 85%;
+    margin: 20px auto;
+}
+.title-main{
+    color: var(--Dark-Charcoal);
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+.descriptions-main p{
+    color: var(--Wenge-Brown);
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.sub-descriptions{
+    border-radius: 5px;
+    background-color: var(--Rose-White);
+    margin: 0 auto;
+    padding: 15px;
+    font-family: "Outfit", sans-serif;
+
+}
+.sub-descriptions h2{
+    color: var(--Dark-Raspberry);
+    font-size: 19px;
+}
+.lista-main{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+    color: var(--Wenge-Brown);
+}
+.lista-main li{
+    font-size: 16px;
+}
+.lista-main li span{
+    font-weight: bold;
+    margin-left: 3px;
+    color: var(--Dark-Charcoal);
+}
+
+.second-main-preparations{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: var(--Nutmeg);
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid rgb(201, 201, 201);
+
+}
+
+.second-main-preparations h2{
+    margin: 15px 0;
+    color: var(--Nutmeg);
+    font-weight: 400;
+}
+.second-main-preparations li{
+    font-family: "Outfit", sans-serif;
+}
+.second-main-preparations li span{
+    color: var(--Wenge-Brown);
+}
+
+
+.second-main-instructions{
+    margin-top: 29px;
+    padding: 0 0 10px 0;
+    font-family: "Outfit", sans-serif;
+    border-bottom: 1px solid rgb(201, 201, 201);
+
+}
+
+.second-main-instructions h2{
+    color: var(--Nutmeg);
+    margin: 10px 0; 
+    font-family: "Young Serif", serif;
+
+}
+
+.cito{
+    color: transparent;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+.container p{
+    color: var(--Nutmeg);
+    font-weight: bold;
+}
+.one{
+    color: var(--Wenge-Brown);
+    font-weight: bold;
+}
+.two{
+    color: #575757;
+    font-weight: 200;
+}
+
+
+.final-main{
+    margin-top: 30px;
+}
+.final-main h2{
+    color: var(--Nutmeg);
+    margin-bottom: 15px;
+}
+
+.final-main p{
+    font-weight: lighter;
+}
+.div-main-flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    font-family: "Outfit", sans-serif;
+
+}
+.letter p{
+    font-weight: 600;
+
+}
+
+.number p{
+    color: var(--Nutmeg);
+    font-weight: bold;
+    margin-right: 55px;
+
+}
+
+
+@media(min-width:678px){
+    body{
+        background-color: var(--Eggshell);
+    }
+    .page-main{
+        width: 50%;
+        margin: 50px auto;
+        background-color: var(--White);
+        border-radius: 20px;
+    }
+
+    .page-main img{
+        padding: 20px;
+        border-radius: 30px;
+    }
+    .title-main{
+        font-size: 25px; 
+    }
+    .second-main-preparations{
+        margin-top: 60px;
+    
+    }
+    
+}
